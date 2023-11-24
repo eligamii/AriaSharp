@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "K4q5lbh29nSxsGGtZdJfAdOcLz/BmGHw0+tjcuDhpNlox9Qhq69370i7KvOk1ybE4ecKvRfUBpdIVWwmC5miOA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\eliga\\source\\repos\\liMusic\\AriaSharp\\AriaSharp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\eliga\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.755\\microsoft.windows.sdk.buildtools.10.0.22621.755.nupkg.sha512",
+    "C:\\Users\\eliga\\.nuget\\packages\\microsoft.windowsappsdk\\1.3.230602002\\microsoft.windowsappsdk.1.3.230602002.nupkg.sha512",
+    "C:\\Users\\eliga\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\6.0.23\\microsoft.netcore.app.runtime.win-x86.6.0.23.nupkg.sha512",
+    "C:\\Users\\eliga\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.29\\microsoft.windows.sdk.net.ref.10.0.19041.29.nupkg.sha512",
+    "C:\\Users\\eliga\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\6.0.23\\microsoft.aspnetcore.app.runtime.win-x86.6.0.23.nupkg.sha512",
+    "C:\\Users\\eliga\\.nuget\\packages\\microsoft.netcore.app.runtime.win-arm64\\6.0.23\\microsoft.netcore.app.runtime.win-arm64.6.0.23.nupkg.sha512",
+    "C:\\Users\\eliga\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.23\\microsoft.aspnetcore.app.runtime.win-x64.6.0.23.nupkg.sha512",
+    "C:\\Users\\eliga\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-arm64\\6.0.23\\microsoft.windowsdesktop.app.runtime.win-arm64.6.0.23.nupkg.sha512",
+    "C:\\Users\\eliga\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.23\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.23.nupkg.sha512",
+    "C:\\Users\\eliga\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-arm64\\6.0.23\\microsoft.aspnetcore.app.runtime.win-arm64.6.0.23.nupkg.sha512",
+    "C:\\Users\\eliga\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.23\\microsoft.netcore.app.runtime.win-x64.6.0.23.nupkg.sha512",
+    "C:\\Users\\eliga\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\6.0.23\\microsoft.windowsdesktop.app.runtime.win-x86.6.0.23.nupkg.sha512"
+  ],
+  "logs": []
+}
