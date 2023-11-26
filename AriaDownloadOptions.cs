@@ -62,11 +62,13 @@ namespace AriaSharp
             var properties = typeof(AriaDownloadOptions).GetProperties();
             string optionsString = string.Empty;
 
-            foreach(var property in properties)
+            foreach(var property in properties.Where(p => p.Name != "Url"))
             {
                 AriaDownloadOption option = (AriaDownloadOption)property.GetValue(this, null);
                 optionsString += option.AsCommandLineArgument();
             }
+
+            optionsString += properties.Where(p => p.Name == "Url").ToArray()[0].GetValue(this, null);
 
             return optionsString;
         }

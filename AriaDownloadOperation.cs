@@ -15,6 +15,7 @@ namespace AriaSharp
         private int lastProgress = 0;
 
         public string OutputPath { get; set; }
+        public string Filename { get; set; }
 
         internal AriaDownloadOperation(Process process, string output, string name = "") 
         {
@@ -30,6 +31,7 @@ namespace AriaSharp
 
         private async void Init(Process process)
         {
+            Status dlStatus = Status.ProcessExited;
             while (!process.HasExited)
             {
                 // Read a line from the StandardOutput stream
@@ -49,20 +51,6 @@ namespace AriaSharp
                             DownloadProgressChanged(this, new DownloadProgessChangedEventArgs(progress, Status.Downloading));
                         }
                     }
-
-
-
-                    // Get the file name
-                    Regex nameRegex = new(@"\d{1,3}%"); // will match only if a percentage is present on the string
-                    var name = nameRegex.Match(line);
-
-                    if (name.Success)
-                    {
-                        OutputPath = name.Value.Replace("/", "\\");
-                    }
-
-
-
 
                     // Get the download state
                     Regex statusRegex = new(@"\([A-Z]{2,3}\):");
@@ -87,13 +75,14 @@ namespace AriaSharp
                         if(statusEnum != null)
                         {
                             DownloadProgressChanged(this, new DownloadProgessChangedEventArgs(100, (Status)statusEnum));
+                            dlStatus = (Status)statusEnum;
                         }
                         
                     }
                 }
-
-
             }
+
+            DownloadProgressChanged(this, new DownloadProgessChangedEventArgs(0, dlStatus));
         }
 
 
@@ -122,7 +111,8 @@ namespace AriaSharp
         {
             Downloading,
             Completed,
-            Error
+            Error,
+            ProcessExited
         }
     }
 }
