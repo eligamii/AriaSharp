@@ -26,3 +26,5 @@ C:\Users\eliga\source\repos\liMusic\AriaSharp\obj\Release\net6.0-windows10.0.190
 C:\Users\eliga\source\repos\liMusic\AriaSharp\obj\Release\net6.0-windows10.0.19041.0\qualifiers.txt
 C:\Users\eliga\source\repos\liMusic\AriaSharp\obj\Release\net6.0-windows10.0.19041.0\qualifiers.txt.intermediate
 C:\Users\eliga\source\repos\liMusic\AriaSharp\obj\Release\net6.0-windows10.0.19041.0\MultipleQualifiersPerDimensionFound.txt
+C:\Users\eliga\source\repos\liMusic\AriaSharp\bin\Release\net6.0-windows10.0.19041.0\AriaSharp\Binary\aria2c.exe
+C:\Users\eliga\source\repos\liMusic\AriaSharp\bin\Release\net6.0-windows10.0.19041.0\Binary\aria2c.exe
